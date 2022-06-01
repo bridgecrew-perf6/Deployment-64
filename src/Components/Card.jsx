@@ -21,7 +21,7 @@ const Card = ({ book }) => {
           let amount =
             book.saleInfo.listPrice && book.saleInfo.listPrice.amount;
 
-          if (thumbnail != undefined && amount != undefined) {
+          if (thumbnail !== undefined && amount !== undefined) {
             return (
               <>
                 <div className="bg-slate-200 h-96 px-8 py-4 rounded-xl overflow-hidden max-w-sm mt-10 transition ease-in-out delay-150 cursor-pointer hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
